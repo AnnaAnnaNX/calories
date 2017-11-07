@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Ядро подсчета калорий</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <script src="scripts/jquery-3.2.1.min.js"></script>
+  <script src="scripts/script.js"></script>
+</head>
+<body>
+  <h2>Список введенных точек</h2>
+  <ul class="points">
+  </ul>
+  <h2>Новая точка</h2>
+  <div>
+    <p class='error'></p>
+    <input class='new-x' type="text" pattern="\d+(,\d{2})?" value="5" placeholder="x">
+    <input class='new-y' type="text" pattern="\d+(,\d{2})?" value="2" placeholder="y">
+    <input class='input-point' type="button" value="Ввести новую точку">
+  </div>
+
+</body>
+</html>
